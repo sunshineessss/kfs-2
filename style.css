@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 36px;
+    padding-bottom: 200px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.logo {
+    display: inline;
+    width: 58px;
+    height: 16px;
+}
+
+.navigation-holder {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: #636363;
+    letter-spacing: 0px;
+    font-size: 16px;
+    padding-top: 30px;
+}
+
+.nav-button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0px;
+}
